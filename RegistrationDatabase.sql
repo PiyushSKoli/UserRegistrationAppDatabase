@@ -31,6 +31,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `joining_date` date DEFAULT NULL,
   `pincode` int(11) DEFAULT NULL,
   `password` longtext,
+  `role` VARCHAR(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=latin1;
 
